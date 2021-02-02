@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" 
                                integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" 
                                crossorigin="anonymous" />
+        <script src="script.js"></script>
     </head>
     <body>
         <!-- Nav bar -->
@@ -15,15 +16,7 @@
             <div class="container">
                 <nav> 
                     <ul class = "nav-pos1">
-                        <li><a href="https://github.com/Chuezhang2278"> <i class="fab fa-github fa-2x"></i> </a> </li>
-                        <li><a href="https://www.linkedin.com/in/chue-zhang/"> <i class="fab fa-linkedin fa-2x"></i> </a></li>
-                    </ul>
-                </nav>
-                <nav>
-                    <ul>
-                        <li><a href="#"> About me </a> </li>
-                        <li><a href="#"> Projects </a></li>
-                        <li><a href="#"> Contact </a>  </li>
+                        <li><a href="https://www.linkedin.com/in/chue-zhang/"> <i class="fab fa-github fa-2x"></i> </a> </li>
                     </ul>
                 </nav>
             </div>
@@ -33,6 +26,7 @@
             <div class = "container grid">
                 <div class = "name-text">
                     <h1> Chue Zhang </h1>
+                    <p> Aspiring Software Engineer, Fullstack Web Developer</p>
                     <p class = "loc"> New York City, NY</p>
                     <a href="#" class = "btn btn-outline-dark"> <strong>Read more</strong> </a>
                 </div>
@@ -49,7 +43,7 @@
             </br>
             </br>
             </br>
-                <div class="row my-4">
+                <div class="row my-4 mb-5">
                     <div class = "col-4 row-border px-5">
                         <i class="fas fa-user fa-3x mb-3"> <small class = "personal-text"> About me </small> </i>
                         <p class="#"></p> <!-- For underline transition-->
@@ -58,7 +52,7 @@
                     <div class = "col-4 row-border px-5">
                         <i class="fas fa-graduation-cap fa-3x mb-3"> <small class = "personal-text"> Education </small></i>
                         <p class="#"></p> <!-- For underline transition-->
-                        <p class="text-secondary"> A Senior Computer Science major attending <strong>"The City College of New York"</strong>, thats expected to graduate Fall 2021</p>
+                        <p class="text-secondary"> A student majoring in Computer Science attending <strong>"The City College of New York"</strong>, thats expected to graduate <strong>Fall 2021</strong></p>
                     </div>
                     <div class = "col-4 px-5">
                         <i class="fas fa-laptop-code fa-3x mb-3"> <small class = "personal-text"> Tech I know</small></i>
@@ -75,10 +69,28 @@
                 </div>
             </div>
         </section>
-
+        <!-- Projects -->
         <section class = "projects">
             <div class="container">
-                <p>project</p>
+                <h1 class = "project-heading pt-5 "> Projects </h1>
+                lmao
+            </div>
+        </section>
+        
+        <!-- Contact -->
+        <section class="contact">
+            <div class="container">
+                <h1 class = "text-center project-heading"> Contact </h1>
+                    <div class="text-center">
+                        <h4> Drop me a message on either one of these platforms listed below! I'd love to hear back from you whether it'd be feedback or Job opportunities </h4>
+                        <nav class = "contact-nav">
+                            <ul class = "test">
+                                <button type = "button" class = "btn btn-light btn-outline-light" onclick="copyToClipboard('#p1')"><i class="color-black far fa-envelope fa-3x px-1"></i></button>
+                                <button type = "button" class = "btn btn-light btn-outline-light" onclick=""><i class="color-black fab fa-linkedin fa-3x px-1"></i></button>
+                                <button type = "button" class = "btn btn-light btn-outline-light" onclick="copyToClipboard('#p1')"><i class="color-black fab fa-discord fa-3x px-1"></i></button>
+                            </ul>
+                        </nav>
+                    </div>
             </div>
         </section>
     </body>
