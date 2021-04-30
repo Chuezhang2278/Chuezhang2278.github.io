@@ -30,6 +30,13 @@ img {
     width: 100%;
 }
 
+.section-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: #333 1px solid;
+}
+
 /* Nav bar */
 
 .navbar {
@@ -152,11 +159,17 @@ img {
 
 /* Project */
 
-.project-heading {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom: #333 1px solid;
+.project_container {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.image_format {
+    max-width: 700px;
+    max-height: 600px;
 }
 
 /* Contact */
@@ -251,3 +264,5 @@ img {
     visibility: visible;
     opacity: 1;
   }
+
+  
