@@ -18,8 +18,46 @@
     display: none;
 }
 
-#second-page {
+#contact-info-container {
     display: flex;
     justify-content: center;
+    align-items: center;
+
+    h2 {
+        text-decoration: underline;
+    }
     
+    #contact-info {
+        margin: 1% 1% 1% 1%; 
+
+        p {
+            font-size: large;
+        }
+    }
+
+    #contact-mid {
+        margin: 0% 5% 0% 5%;
+        padding: 0% 5% 0% 5%;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+    }
+
+    #icon-size {
+        height: 10%;
+        width: 10%;
+    }
+
+    #btn-style {
+        cursor: pointer;
+        background: transparent;
+        border: 0;
+    }
+
+}
+#btn-style2{
+    width: 200px;
+    height: 50px;
+    
+    
+
 }

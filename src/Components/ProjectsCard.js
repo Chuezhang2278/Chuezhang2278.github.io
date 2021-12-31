@@ -3,12 +3,12 @@ import '../Styles/ProjectCard.scss';
 import github from "../Images/github.png";
 
 
-export default function ProjectsCard({summary, p1, p2, p3, p4, p5, image1, image2, blockquote1, link}){
+export default function ProjectsCard({summary, p1, p2, p3, p4, p5, image1, image2, blockquote1, link, title}){
 
     return(
         <div id = "projectsContainer">
                 <div id = "simpleHeader"> 
-                    <h1> SimpleMTA </h1>
+                    <h1> {title} </h1>
                 </div>
                 <div id = "cardContainer">
                     <div id = "card">
@@ -30,7 +30,7 @@ export default function ProjectsCard({summary, p1, p2, p3, p4, p5, image1, image
                                 </div>
 
                                 <div id = "involved-Icon">
-                                <img id = "involved-Icon" alt = "" src="https://img.icons8.com/nolan/64/html-filetype.png"/>
+                                    <img id = "involved-Icon" alt = "" src="https://img.icons8.com/nolan/64/html-filetype.png"/>
                                 </div>
 
                                 <div id = "involved-Icon">
