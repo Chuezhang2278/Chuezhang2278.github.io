@@ -1,0 +1,29 @@
+#aboutme-container {
+    display: flex;
+    justify-content: center;
+}
+
+#aboutme-image {
+    margin-top: 5%;
+    max-height: 170px;
+    border-radius: 50%;
+}
+
+#aboutme-intro{
+    margin-left: 4%;
+    text-align: left;
+
+
+    h1 {
+        font-size: 23px;
+        color:yellow;
+    }
+
+    b {
+        color: yellow;
+    }
+}
+
+#aboutme-intro p {
+    font-size: 20px;
+}
