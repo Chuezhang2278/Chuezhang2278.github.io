@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+#first-page {
+    height: calc(100vh);
+    padding-top: 5%;
+    overflow: auto;
+    h1 {
+        color: aquamarine;
+    }
+}
+
+.carousel .thumbs-wrapper { // thumb-wrapper was adding extra padding at the bottom, no idea what it does so i removed it
+    display: none;
+}
+
+#contact-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        text-decoration: underline;
+    }
+    
+    #contact-info {
+        margin: 1% 1% 1% 1%; 
+
+        p {
+            font-size: large;
+        }
+    }
+
+    #contact-mid {
+        margin: 0% 5% 0% 5%;
+        padding: 0% 5% 0% 5%;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+    }
+
+    #icon-size {
+        height: 10%;
+        width: 10%;
+    }
+
+    #btn-style {
+        cursor: pointer;
+        background: transparent;
+        border: 0;
+    }
+
+}
+#btn-style2{
+    width: 200px;
+    height: 50px;
+    
+    
+
+}
