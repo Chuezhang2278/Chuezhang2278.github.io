@@ -16,6 +16,7 @@ import img4 from "./Images/img4.png";
 import linkedin from "./Images/LI-In-Bug.png";
 import gmail from "./Images/gmail.png";
 import discord from "./Images/discord.png";
+import github from "./Images/github.png";
 
 import resume from "./Images/Chue_Zhang_resume.pdf";
 
@@ -52,6 +53,11 @@ function App() {
   return (
     <MuiThemeProvider theme = {themeDark}>
         <CssBaseline />
+          <div id = "navbar-style">
+            <a href = {czRepo}> 
+              <img alt = "" src = {github}/>
+            </a>
+          </div>
           <Carousel showStatus = {false} useKeyboardArrows = {true} infiniteLoop = {true}>
               <section id = "first-page">
                   <Intro message = {"The City College of New York"} 
